@@ -1,0 +1,346 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hx-about-style-1 .hx-about-img {
+    display: none;
+  }
+  .hero-style-1 .slide {
+    height: auto;
+    min-height: auto;
+  }
+  .hero-style-1 {
+    height: auto;
+    min-height: auto;
+  }
+  .hero .slide-caption {
+    padding: 120px 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .pricing-area {
+    padding: 60px 0 30px;
+  }
+  .hx-skills-area,
+  .hx-skills-style-1 {
+    padding: 60px 0 30px;
+  }
+  .tumho-masonary .grid.active,
+  .tumho-masonary .grid.open {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .p-out {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .price-item {
+    overflow: hidden;
+  }
+  .hero-style-1 .slide,
+  .hero-style-1 {
+    height: auto;
+    min-height: auto;
+  }
+  .hero .slide-caption {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+  }
+  .hero-style-1 .slide-title h2 {
+    font-size: 32px;
+  }
+  .hero .copy {
+    display: none;
+  }
+  .hero .slide .slider-image {
+    display: none;
+  }
+  .hero-style-1 .slide {
+    background: url("../Images/slide-2.jpg") 20% center no-repeat;
+    background-size: cover;
+  }
+  .header-style-1 .navbar-header button {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .hero-style-1 .slide-subtitle h4:before {
+    display: none;
+  }
+
+  .hx-about-style-1 .hx-about-img {
+    margin-top: 40px;
+  }
+  .hx-about-style-1 .hx-about-content h2 {
+    margin-bottom: 30px;
+  }
+  .hx-about-style-1 {
+    padding: 60px 0;
+  }
+  .section-title h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .price-item.price-item-2 {
+    margin-top: 0;
+  }
+  .gallery-section {
+    padding: 60px 0 40px;
+  }
+  .testimonial-sub {
+    padding-left: 0;
+  }
+  .testimonial-content:before {
+    transform: translateX(-50%);
+  }
+  .testimonial-area {
+    padding-top: 60px;
+  }
+  .testimonial-item p {
+    font-size: 16px;
+  }
+  .p-out {
+    padding-top: 0;
+  }
+  .blog-section {
+    padding-bottom: 30px;
+    padding-top: 60px;
+  }
+  .contact-page-area {
+    padding-top: 34px;
+    padding-bottom: 60px;
+  }
+  .contact-page-area .contact-map {
+    height: 250px;
+    margin-top: 0;
+  }
+  .header-style-1 .navigation-holder.active {
+    right: 0 !important;
+  }
+  .site-header .navbar-nav > li {
+    position: relative;
+  }
+
+  .price-item.price-item-2 .price-sub-header h4 {
+    line-height: 72px;
+    height: auto;
+    width: auto;
+    border: none;
+    font-size: 40px;
+    background: transparent;
+    color: white;
+  }
+  .price-item.price-item-2 .price-sub-header h4 span {
+    color: white;
+  }
+  .pricing-table.pricing-table-2 h5 {
+    margin-top: -10px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+  .pricing-area {
+    padding: 60px 0 30px;
+  }
+  .hx-skills-area,
+  .hx-skills-style-1 {
+    padding: 60px 0 30px;
+  }
+  .tumho-masonary .grid.active,
+  .tumho-masonary .grid.open {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .p-out {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .price-item {
+    overflow: hidden;
+  }
+  .hero-style-1 .slide,
+  .hero-style-1 {
+    height: auto;
+    min-height: auto;
+  }
+  .hero .slide-caption {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+  }
+  .hero-style-1 .slide-title h2 {
+    font-size: 32px;
+  }
+  .hero .copy {
+    display: none;
+  }
+  .hero .slide .slider-image {
+    display: none;
+  }
+  .hero-style-1 .slide {
+    background: url("../Images/slide-2.jpg") 20% center no-repeat;
+    background-size: cover;
+  }
+  .header-style-1 .navbar-header button {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .hero-style-1 .slide-subtitle h4:before {
+    display: none;
+  }
+
+  .hx-about-style-1 .hx-about-img {
+    margin-top: 40px;
+  }
+  .hx-about-style-1 .hx-about-content h2 {
+    margin-bottom: 30px;
+  }
+  .hx-about-style-1 {
+    padding: 60px 0;
+  }
+  .section-title h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .price-item.price-item-2 {
+    margin-top: 0;
+  }
+  .gallery-section {
+    padding: 60px 0 40px;
+  }
+  .testimonial-sub {
+    padding-left: 0;
+  }
+  .testimonial-content:before {
+    transform: translateX(-50%);
+  }
+  .testimonial-area {
+    padding-top: 60px;
+  }
+  .testimonial-item p {
+    font-size: 16px;
+  }
+  .p-out {
+    padding-top: 0;
+  }
+  .blog-section {
+    padding-bottom: 30px;
+    padding-top: 60px;
+  }
+  .contact-page-area {
+    padding-top: 34px;
+    padding-bottom: 60px;
+  }
+  .contact-page-area .contact-map {
+    height: 250px;
+    margin-top: 0;
+  }
+  .header-style-1 .navigation-holder.active {
+    right: 0 !important;
+  }
+  .site-header .navbar-nav > li {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .pricing-area {
+    padding: 60px 0 30px;
+  }
+  .hx-skills-area,
+  .hx-skills-style-1 {
+    padding: 60px 0 30px;
+  }
+  .tumho-masonary .grid.active,
+  .tumho-masonary .grid.open {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .p-out {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .price-item {
+    overflow: hidden;
+  }
+  .hero-style-1 .slide,
+  .hero-style-1 {
+    height: auto;
+    min-height: auto;
+  }
+  .hero .slide-caption {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+  }
+  .hero-style-1 .slide-title h2 {
+    font-size: 32px;
+  }
+  .hero .copy {
+    display: none;
+  }
+  .hero .slide .slider-image {
+    display: none;
+  }
+  .hero-style-1 .slide {
+    background: url("../Images/slide-2.jpg") 20% center no-repeat;
+    background-size: cover;
+  }
+  .header-style-1 .navbar-header button {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .hero-style-1 .slide-subtitle h4:before {
+    display: none;
+  }
+
+  .hx-about-style-1 .hx-about-img {
+    margin-top: 40px;
+  }
+  .hx-about-style-1 .hx-about-content h2 {
+    margin-bottom: 30px;
+  }
+  .hx-about-style-1 {
+    padding: 60px 0;
+  }
+  .section-title h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .price-item.price-item-2 {
+    margin-top: 0;
+  }
+  .gallery-section {
+    padding: 60px 0 40px;
+  }
+  .testimonial-sub {
+    padding-left: 0;
+  }
+  .testimonial-content:before {
+    transform: translateX(-50%);
+  }
+  .testimonial-area {
+    padding-top: 60px;
+  }
+  .testimonial-item p {
+    font-size: 16px;
+  }
+  .p-out {
+    padding-top: 0;
+  }
+  .blog-section {
+    padding-bottom: 30px;
+    padding-top: 60px;
+  }
+  .contact-page-area {
+    padding-top: 34px;
+    padding-bottom: 60px;
+  }
+  .contact-page-area .contact-map {
+    height: 250px;
+    margin-top: 0;
+  }
+  .header-style-1 .navigation-holder.active {
+    right: 0 !important;
+  }
+  .site-header .navbar-nav > li {
+    position: relative;
+  }
+}
