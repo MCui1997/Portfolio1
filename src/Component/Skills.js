@@ -14,7 +14,7 @@ class Skills extends Component {
         <div className="container">
           <div className="col-12">
             <div className="section-title text-center">
-              <h2>My Skills</h2>
+              <h2>Skills</h2>
             </div>
           </div>
           <div className="row">
@@ -22,11 +22,10 @@ class Skills extends Component {
               <div className="hx-skills-item">
                 <div className="hx-skills-single">
                   <div className="skills-img">
-                    <img src={skillsImg_2} />
+                    <img src={skillsImg_1} />
                   </div>
                   <div className="hx-skills-content">
-                    <h3>Web Design</h3>
-                    <p>I am Expert In</p>
+                    <h3>HTML5, CSS, JavaScript</h3>
                   </div>
                 </div>
               </div>
@@ -35,11 +34,10 @@ class Skills extends Component {
               <div className="hx-skills-item">
                 <div className="hx-skills-single">
                   <div className="skills-img">
-                    <img src={skillsImg_1} />
+                    <img src={skillsImg_2} />
                   </div>
                   <div className="hx-skills-content">
-                    <h3>Web Development</h3>
-                    <p>I am Expert In</p>
+                    <h3>React.js</h3>
                   </div>
                 </div>
               </div>
@@ -51,8 +49,7 @@ class Skills extends Component {
                     <img src={skillsImg_3} />
                   </div>
                   <div className="hx-skills-content">
-                    <h3>Creative Design</h3>
-                    <p>I am Expert In</p>
+                    <h3>Node.js</h3>
                   </div>
                 </div>
               </div>
@@ -64,8 +61,7 @@ class Skills extends Component {
                     <img src={skillsImg_4} />
                   </div>
                   <div className="hx-skills-content">
-                    <h3>Responsive Design</h3>
-                    <p>I am Expert In</p>
+                    <h3>MySQL</h3>
                   </div>
                 </div>
               </div>
@@ -77,8 +73,7 @@ class Skills extends Component {
                     <img src={skillsImg_5} />
                   </div>
                   <div className="hx-skills-content">
-                    <h3>Branding Identity</h3>
-                    <p>I am Expert In</p>
+                    <h3>MongoDB</h3>
                   </div>
                 </div>
               </div>
@@ -90,8 +85,12 @@ class Skills extends Component {
                     <img src={skillsImg_6} />
                   </div>
                   <div className="hx-skills-content">
-                    <h3>24/Support</h3>
-                    <p>I am Expert In</p>
+                    <h3>Other Technologies</h3>
+                    <br></br>
+                    <p>Xcode</p>
+                    <p>MATLAB</p>
+                    <p>Python</p>
+                    <p>Arduino IDE</p>
                   </div>
                 </div>
               </div>
