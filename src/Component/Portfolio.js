@@ -135,6 +135,35 @@ class Porfolio extends Component {
               <div className="gallery-container gallery-fancybox masonry-gallery tumho-masonary">
                 <div
                   className={
+                    this.state.onfullStack
+                      ? "grid active"
+                      : "grid" && this.state.onfullStack
+                      ? "grid active"
+                      : "grid" && this.state.isOpen
+                      ? "grid"
+                      : "grid open"
+                  }
+                >
+                  <img src={Gallery_2} alt="" className="img img-responsive" />
+                  <div className="icon">
+                    <a
+                      href="https://ancient-waters-57697.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <h4>Deployed</h4>
+                    </a>
+
+                    <a
+                      href="https://github.com/MCui1997/Plant-Partner"
+                      target="_blank"
+                    >
+                      <h4>Repo</h4>
+                    </a>
+                  </div>
+                </div>
+
+                <div
+                  className={
                     this.state.onfrontEnd
                       ? "grid active"
                       : "grid" && this.state.onfrontEnd
@@ -154,39 +183,6 @@ class Porfolio extends Component {
                     </a>
                     <a
                       href="https://github.com/MCui1997/Fish-Guide-Friend"
-                      target="_blank"
-                    >
-                      <h4>Repo</h4>
-                    </a>
-                  </div>
-                </div>
-
-                <div
-                  className={
-                    this.state.onfrontEnd
-                      ? "grid active"
-                      : "grid" && this.state.onbackEnd
-                      ? "grid active"
-                      : "grid" && this.state.onfullStack
-                      ? "grid active"
-                      : "grid" && this.state.onfrontEnd
-                      ? "grid active"
-                      : "grid" && this.state.isOpen
-                      ? "grid"
-                      : "grid open"
-                  }
-                >
-                  <img src={Gallery_2} alt="" className="img img-responsive" />
-                  <div className="icon">
-                    <a
-                      href="https://ancient-waters-57697.herokuapp.com/"
-                      target="_blank"
-                    >
-                      <h4>Deployed</h4>
-                    </a>
-
-                    <a
-                      href="https://github.com/MCui1997/Plant-Partner"
                       target="_blank"
                     >
                       <h4>Repo</h4>
@@ -254,11 +250,7 @@ class Porfolio extends Component {
 
                 <div
                   className={
-                    this.state.onbackEnd
-                      ? "grid active"
-                      : "grid" && this.state.onfrontEnd
-                      ? "grid active"
-                      : "grid" && this.state.onbackEnd
+                    this.state.onfullStack
                       ? "grid active"
                       : "grid" && this.state.onfullStack
                       ? "grid active"

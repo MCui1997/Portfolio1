@@ -121,7 +121,6 @@ button:focus {
   top: 0;
   width: 1px;
   height: 100%;
-  background: rgba(102, 102, 102, 0.3);
   z-index: 99;
 }
 .hero-slider-wrapper:after {
@@ -131,7 +130,6 @@ button:focus {
   top: 0;
   width: 1px;
   height: 100%;
-  background: rgba(102, 102, 102, 0.3);
 }
 .box-style {
   padding: 0 60px;
@@ -659,7 +657,6 @@ button:focus {
     position: absolute;
     width: 100%;
     z-index: 99;
-    border-bottom: 1px solid rgba(102, 102, 102, 0.3);
   }
   .header-style-1 ul {
     list-style: none;
@@ -1929,7 +1926,6 @@ page loader
 
 .pricing-table li {
   padding: 10px;
-  border-bottom: 1px solid rgba(102, 102, 102, 0.1);
   list-style: none;
   color: #999;
 }

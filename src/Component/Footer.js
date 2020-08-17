@@ -20,13 +20,7 @@ class Footer extends Component {
       <div className="footer-area text-center">
         <div className="container">
           <div className="row">
-            <div className="col-12">
-              <div className="footer-image">
-                <a href="index.html">
-                  <img src={Logo} />
-                </a>
-              </div>
-            </div>
+            <div className="col-12"></div>
             <div className="col-12">
               <div className="footer-menu">
                 <ul className="d-flex ">
