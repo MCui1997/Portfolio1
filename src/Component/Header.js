@@ -1,12 +1,9 @@
 import React, { Component } from "react";
-import Logo from "../Assets/Images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Home_1 from "../Assets/Images/home/img-1.jpg";
 import Home_2 from "../Assets/Images/home/img-2.jpg";
 import Home_3 from "../Assets/Images/home/img-3.jpg";
 import Home_4 from "../Assets/Images/home/img-4.jpg";
-import Home_5 from "../Assets/Images/home/img-5.jpg";
-import Home_6 from "../Assets/Images/home/img-6.jpg";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 class Header extends Component {
@@ -19,21 +16,6 @@ class Header extends Component {
       <header id="header" className="site-header header-style-1">
         <nav className="navigation navbar navbar-default">
           <div className="container-fluid">
-            <div className="navbar-header">
-              <button
-                type="button"
-                className="open-btn"
-                onClick={() => this.setState({ isOpen: true })}
-              >
-                <span className="sr-only">Toggle navigation</span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-              </button>
-              <a className="navbar-brand" href="index.html">
-                <img src={Logo} alt="" />
-              </a>
-            </div>
             <div
               id="navbar"
               className={
