@@ -225,6 +225,8 @@ class Porfolio extends Component {
                       ? "grid active"
                       : "grid" && this.state.onbackEnd
                       ? "grid active"
+                      : "grid" && this.state.onfullStack
+                      ? "grid active"
                       : "grid" && this.state.isOpen
                       ? "grid"
                       : "grid open"
@@ -233,14 +235,14 @@ class Porfolio extends Component {
                   <img src={Gallery_5} alt="" className="img img-responsive" />
                   <div className="icon">
                     <a
-                      href="https://mcui1997.github.io/Team-Profile-Generator/"
+                      href="https://pure-badlands-52253.herokuapp.com/"
                       target="_blank"
                     >
                       <h4>Deployed</h4>
                     </a>
 
                     <a
-                      href="https://github.com/MCui1997/Team-Profile-Generator"
+                      href="https://github.com/MCui1997/MERN-Tube"
                       target="_blank"
                     >
                       <h4>Repo</h4>
