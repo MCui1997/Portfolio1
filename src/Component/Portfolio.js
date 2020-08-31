@@ -106,11 +106,7 @@ class Porfolio extends Component {
                       Front End
                     </a>
                   </li>
-                  <li>
-                    <a data-filter=".Print-Design" href="#" onClick={backEnd}>
-                      Back End
-                    </a>
-                  </li>
+
                   <li>
                     <a
                       data-filter=".Web-Application"
@@ -139,6 +135,10 @@ class Porfolio extends Component {
                       ? "grid active"
                       : "grid" && this.state.onfullStack
                       ? "grid active"
+                      : "grid" && this.state.onfrontEnd
+                      ? "grid active"
+                      : "grid" && this.state.onbackEnd
+                      ? "grid active"
                       : "grid" && this.state.isOpen
                       ? "grid"
                       : "grid open"
@@ -146,18 +146,20 @@ class Porfolio extends Component {
                 >
                   <img src={Gallery_2} alt="" className="img img-responsive" />
                   <div className="icon">
+                    <h2>Plant Partner</h2>
+
                     <a
                       href="https://ancient-waters-57697.herokuapp.com/"
                       target="_blank"
                     >
-                      <h4>Deployed</h4>
+                      <h5>Deployed</h5>
                     </a>
 
                     <a
                       href="https://github.com/MCui1997/Plant-Partner"
                       target="_blank"
                     >
-                      <h4>Repo</h4>
+                      <h5>Repo</h5>
                     </a>
                   </div>
                 </div>
@@ -175,17 +177,18 @@ class Porfolio extends Component {
                 >
                   <img src={Gallery_1} className="img img-responsive" alt="" />
                   <div className="icon">
+                    <h2>Fish Guide Friend</h2>
                     <a
                       href="https://mcui1997.github.io/Fish-Guide-Friend/"
                       target="_blank"
                     >
-                      <h4>Deployed</h4>
+                      <h5>Deployed</h5>
                     </a>
                     <a
                       href="https://github.com/MCui1997/Fish-Guide-Friend"
                       target="_blank"
                     >
-                      <h4>Repo</h4>
+                      <h5>Repo</h5>
                     </a>
                   </div>
                 </div>
@@ -203,18 +206,19 @@ class Porfolio extends Component {
                 >
                   <img src={Gallery_6} alt="" className="img img-responsive" />
                   <div className="icon">
+                    <h2>Charity Studio Template</h2>
                     <a
                       href="https://mcui1997.github.io/Charity-Studio-Template/"
                       target="_blank"
                     >
-                      <h4>Deployed</h4>
+                      <h5>Deployed</h5>
                     </a>
 
                     <a
                       href="https://github.com/MCui1997/Charity-Studio-Template"
                       target="_blank"
                     >
-                      <h4>Repo</h4>
+                      <h5>Repo</h5>
                     </a>
                   </div>
                 </div>
@@ -227,6 +231,8 @@ class Porfolio extends Component {
                       ? "grid active"
                       : "grid" && this.state.onfullStack
                       ? "grid active"
+                      : "grid" && this.state.onfrontEnd
+                      ? "grid active"
                       : "grid" && this.state.isOpen
                       ? "grid"
                       : "grid open"
@@ -234,18 +240,19 @@ class Porfolio extends Component {
                 >
                   <img src={Gallery_5} alt="" className="img img-responsive" />
                   <div className="icon">
+                    <h2>MERN-Tube</h2>
                     <a
                       href="https://pure-badlands-52253.herokuapp.com/"
                       target="_blank"
                     >
-                      <h4>Deployed</h4>
+                      <h5>Deployed</h5>
                     </a>
 
                     <a
                       href="https://github.com/MCui1997/MERN-Tube"
                       target="_blank"
                     >
-                      <h4>Repo</h4>
+                      <h5>Repo</h5>
                     </a>
                   </div>
                 </div>
@@ -254,7 +261,9 @@ class Porfolio extends Component {
                   className={
                     this.state.onfullStack
                       ? "grid active"
-                      : "grid" && this.state.onfullStack
+                      : "grid" && this.state.onfrontEnd
+                      ? "grid active"
+                      : "grid" && this.state.onbackEnd
                       ? "grid active"
                       : "grid" && this.state.isOpen
                       ? "grid"
@@ -263,18 +272,19 @@ class Porfolio extends Component {
                 >
                   <img src={Gallery_3} alt="" className="img img-responsive" />
                   <div className="icon">
+                    <h2>Note Taker</h2>
                     <a
                       href="https://fatidique-moliere-85099.herokuapp.com/"
                       target="_blank"
                     >
-                      <h4>Deployed</h4>
+                      <h5>Deployed</h5>
                     </a>
 
                     <a
                       href="https://github.com/MCui1997/Note-Taker"
                       target="_blank"
                     >
-                      <h4>Repo</h4>
+                      <h5>Repo</h5>
                     </a>
                   </div>
                 </div>
@@ -292,18 +302,19 @@ class Porfolio extends Component {
                 >
                   <img src={Gallery_4} alt="" className="img img-responsive" />
                   <div className="icon">
+                    <h2>EMG Claw</h2>
                     <a
                       href="https://github.com/MCui1997/EMG-Claw/blob/master/index.c"
                       target="_blank"
                     >
-                      <h4>Deployed</h4>
+                      <h5>Deployed</h5>
                     </a>
 
                     <a
                       href="https://drive.google.com/file/d/1es_rEDWa2_SXev56h4hMHBwC8zMZt6AW/view"
                       target="_blank"
                     >
-                      <h4>Repo</h4>
+                      <h5>Repo</h5>
                     </a>
                   </div>
                 </div>
