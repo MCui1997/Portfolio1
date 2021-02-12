@@ -13,7 +13,7 @@ class About extends Component {
                   <h2>About Me</h2>
                 </div>
                 <p>
-                  Welcome to my Portfolio! I am a Software Engineer with a
+                  Welcome to my Portfolio! I am a Software Developer with a
                   Bioengineering background. I recently graduated from UT Austin
                   with a Certificate in Full Stack Web Development that
                   developed new skills such as React.js, Node.js, MySQL and
