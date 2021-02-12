@@ -36,7 +36,7 @@ class About extends Component {
 
                 <div className="btns">
                   <a
-                    href="https://drive.google.com/file/d/1190UGB483UFE_X3OeSRpfTWfe5C8OVH3/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1UUQKJvvtvTmbKDq8kYUn_fNWhmErT9jv/view?usp=sharing"
                     target="_blank"
                     className="theme-btn"
                   >

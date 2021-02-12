@@ -90,42 +90,7 @@ class Porfolio extends Component {
                 <div className="section-title">
                   <h2>Portfolio</h2>
                 </div>
-                <ul>
-                  <li>
-                    <a
-                      data-filter="*"
-                      href="#"
-                      className="current"
-                      onClick={allElement}
-                    >
-                      All
-                    </a>
-                  </li>
-                  <li>
-                    <a data-filter=".Web-Design" href="#" onClick={frontEnd}>
-                      Front End
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      data-filter=".Web-Application"
-                      href="#"
-                      onClick={fullStack}
-                    >
-                      Full Stack
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      data-filter=".Engineering"
-                      href="#"
-                      onClick={Engineering}
-                    >
-                      Engineering
-                    </a>
-                  </li>
-                </ul>
+              
               </div>
 
               <div className="gallery-container gallery-fancybox masonry-gallery tumho-masonary">

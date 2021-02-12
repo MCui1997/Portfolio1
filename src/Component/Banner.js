@@ -21,7 +21,7 @@ class Banner extends Component {
               <div className="row">
                 <div className="col col-md-8 col-sm-12 slide-caption">
                   <div className="slide-subtitle">
-                    <h4>Austin Based Software Engineer</h4>
+                    <h4>Austin Based Software Developer</h4>
                   </div>
                   <div className="slide-title">
                     <h2>Michael Cui</h2>
